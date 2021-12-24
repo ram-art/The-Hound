@@ -1,0 +1,9 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(sss.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+}

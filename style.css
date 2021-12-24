@@ -1,0 +1,358 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(ddd.jpg);
+	background-size: cover;
+	background-position: ;
+	font-family: sans-serif;
+}
+
+.loginbox{
+	width: 350px;
+	height: 480px;
+	background: #051526;
+	color: #fff;
+	top: 50%;
+	left: 40%;
+	position: absolute;
+	transform: translate(-140%, -48%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 3%;
+	filter: drop-shadow(5px 15px 10px rgba(0, 0, 0, 85));
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="email"], input[type="Password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+	 border: none;
+	 outline: none;
+	 height: 40px;
+	 background: #fb2525;
+	 color: #fff;
+	 font-size: 18px;
+	 border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 35px;
+	color: darkgrey;
+}
+
+.loginbox a:hover
+{
+	color: #7a5b00;
+}
+
+.fb {
+	width: 40px;
+	position: absolute;
+	top: 86%;
+	left: 15%;
+}
+
+.twt {
+	width: 40px;
+	position: absolute;
+	top: 86%;
+	left: 43%;
+}
+
+.insta {
+	width: 40px;
+	position: absolute;
+	top: 86%;
+	left: 75%;
+}
+
+.Copyright
+{
+	position: fixed;  
+    left: 10px;  
+    bottom: 0px;  
+    right: 10px;   
+    width: 98%;  
+    background-color: gray;  
+    color: white;  
+    text-align: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.header {
+	width: 100%;
+	height: 80px;
+	display: block;
+	background-color: #101010;
+	font-family: Montserrat;
+}
+
+.inner-header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-countainner{
+	height: 100%;
+	display: table;
+	float: left;
+	position: absolute;
+	top: -330px;
+}
+
+.logo-countainner h1{
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100px;
+	font-weight: 200;
+	font-size: 38px;
+}
+
+.logo-countainner span{
+	font-weight: 800;
+}
+
+.logo-countainner h1 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation {
+	float: right;
+	height: 100%;
+}
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+}
+
+.navigation a:last-child{
+	padding: 0;
+}
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: #bdbdbd;
+	font-family: Montserrat;
+	font-size: 16px;
+}
+
+.navigation a li:hover
+{
+	color: #fff;
+}
+
+.logo {
+	position: absolute;
+	right: 62%;
+
+}
+
+.information-box{
+	width: 320px;
+	height: 280px;
+	background-color: #051525;
+	border-radius: 3%;
+	left: 46%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	filter: drop-shadow(5px 15px 10px rgba(0, 0, 0, 85));
+	color: #fff;
+}
+
+.information-box h1{
+	position: absolute;
+	top: 15px;
+	right: 25%;
+}
+
+.st {
+	width: 18px;
+	position: absolute;
+	top: 25%;
+	right: 85%;
+}
+
+
+.scd {
+	width: 18px;
+	position: absolute;
+	top: 45%;
+	right: 85%;
+}
+
+.thrd {
+	width: 18px;
+	position: absolute;
+	top: 65%;
+	right: 85%;
+}
+
+.frth {
+	width: 18px;
+	position: absolute;
+	top: 85%;
+	right: 85%;
+}
+
+.fst {
+	position: absolute;
+	top: 25%;
+	right: 30%;
+}
+
+.scnd {
+	position: absolute;
+	top: 45%;
+	right: 36%;
+}
+
+.third {
+	position: absolute;
+	top: 65%;
+	right: 41%;
+}
+
+.fourth {
+	position: absolute;
+	top: 85%;
+	right: 43%;
+}
+
+.sub-info{
+	height: 500px;
+	width: 500px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 52%;
+	right: -13%;
+	color: #ff784f;
+	padding: 50px 20px;
+}
+
+.sub-info h1{
+	font-size: 40px;
+}
+
+.sub-info span{
+	color: #cdcccc;
+}
+
+.sub-info h2{
+	color: #fff;
+	position: absolute;
+	top: 60%;
+	right: 20%;
+}
+
+.sub-info input[type="Submit"]{
+	height: 40px;
+	width: 170px;
+	border: none;
+	border-radius: 15px;
+	outline: none;
+	background-color: #dd885e;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 500;
+	position: absolute;
+	top: 70%;
+	right: 40%;
+}
+
+.sub-info input[type="Submit"]:hover{
+	cursor: pointer;
+	background-color: #404040;
+	color: #eaeaea;
+}
+
+hr {
+	width: 21%;
+	height: 6px;
+	background-color: #7d6167;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: none;
+	position: absolute;
+	top: 37%;
+	right: 25%;
+	transform: rotate(90deg);
+	filter: drop-shadow(0px -5px 6px rgba(0, 0, 0, 1.0));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
